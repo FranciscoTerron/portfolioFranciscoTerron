@@ -1,0 +1,230 @@
+.main-index {
+
+    .contenedorPrincipal {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        .contenido {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 30px 0px;
+
+            .textoPrincipal {
+
+                width: 800px;
+
+                .tituloPrincipal {
+                    font-size: 60px;
+
+                    strong {
+                        color: rgb(160, 0, 0);
+                    }
+
+                }
+
+            }
+
+            img {
+                width: 300px;
+
+                border-radius: 5%;
+            }
+        }
+
+        .contenidoRedes {
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                li {
+                    list-style: none;
+                    margin: 0px 15px;
+
+                    .fa-brands {
+                        font-size: 50px;
+                        color: rgb(160, 0, 0);
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+
+    .contenedorQuienSoy {
+        margin-top: 30px;
+        padding: 40px;
+
+        h2 {
+            margin: 20px 0px;
+            font-size: 36px;
+            color: rgb(160, 0, 0);
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        .contenidoQuienSoy {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0px;
+
+
+            img {
+                width: 300px;
+                border-radius: 5%;
+            }
+
+            .infoMia {
+                display: flex;
+                width: 800px;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;
+
+                h3 {
+                    font-weight: bold;
+                    text-align: center;
+                    font-size: 30px;
+                }
+
+                p {
+                    color: #343A40;
+                    margin: 15px 0px;
+                    font-size: 23px;
+                }
+            }
+        }
+
+
+
+    }
+
+    .contenedorPortfolio {
+        h2 {
+            margin: 20px 0px;
+            font-size: 40px;
+            color: rgb(160, 0, 0);
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .contenidoPortfolio {
+            .proyectoDraigGoch {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 10px 0px;
+
+                .carousel {
+                    width: 560px !important;
+                    height: 340px;
+                }
+
+                .infoDraigGoch {
+                    display: flex;
+                    width: 800px;
+                    flex-direction: column;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    h3 {
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 30px;
+                        color: red;
+                    }
+
+                    p {
+                        color: #343A40;
+                        margin: 15px 0px;
+                        font-size: 23px;
+                    }
+                }
+
+
+            }
+
+            .proyectoWalaPiscinas {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 40px 0px;
+
+                .carousel {
+                    width: 560px !important;
+                    height: 340px;
+                }
+
+                .infoWala {
+                    display: flex;
+                    width: 800px;
+                    flex-direction: column;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    h3 {
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 30px;
+                        color: #084298;
+                    }
+
+                    p {
+                        color: #343A40;
+                        margin: 15px 0px;
+                        font-size: 23px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .contenedorContacto {
+        h2 {
+            margin: 20px 0px;
+            font-size: 40px;
+            color: rgb(160, 0, 0);
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .contenidoRedes {
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                li {
+                    list-style: none;
+                    margin: 0px 10px;
+
+                    .fa-brands {
+                        font-size: 50px;
+                        color: rgb(160, 0, 0);
+                    }
+                }
+
+            }
+
+
+
+        }
+
+        p {
+            color: #343A40;
+            margin: 15px 0px;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}

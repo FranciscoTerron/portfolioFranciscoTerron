@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Paleta de colores
+header -> #D6F9DD
+body ->#99F7AB
+footer ->#ABDF75
+*/
+/* Fuentes
+    body -> 'Poppins', sans-serif
+*/
+main {
+  min-height: 80vh; }
+
+body {
+  background-color: #99F7AB;
+  font-family: 'Poppins', sans-serif; }
+
+header {
+  background-color: #D6F9DD;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  max-width: 100%;
+  padding: 15px; }
+  header .navbar-collapse {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; }
+    header .navbar-collapse .navbar-nav {
+      display: flex; }
+      header .navbar-collapse .navbar-nav .nav-item a {
+        color: black;
+        font-size: 30px;
+        margin: 10px;
+        text-decoration: none; }
+        header .navbar-collapse .navbar-nav .nav-item a:hover {
+          font-weight: bold;
+          color: #4b4a4a !important; }
+
+.main-index .contenedorPrincipal {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: column; }
+  .main-index .contenedorPrincipal .contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0px; }
+    .main-index .contenedorPrincipal .contenido .textoPrincipal {
+      width: 800px; }
+      .main-index .contenedorPrincipal .contenido .textoPrincipal .tituloPrincipal {
+        font-size: 60px; }
+        .main-index .contenedorPrincipal .contenido .textoPrincipal .tituloPrincipal strong {
+          color: #a00000; }
+    .main-index .contenedorPrincipal .contenido img {
+      width: 300px;
+      border-radius: 5%; }
+  .main-index .contenedorPrincipal .contenidoRedes ul {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main-index .contenedorPrincipal .contenidoRedes ul li {
+      list-style: none;
+      margin: 0px 15px; }
+      .main-index .contenedorPrincipal .contenidoRedes ul li .fa-brands {
+        font-size: 50px;
+        color: #a00000; }
+
+.main-index .contenedorQuienSoy {
+  margin-top: 30px;
+  padding: 40px; }
+  .main-index .contenedorQuienSoy h2 {
+    margin: 20px 0px;
+    font-size: 36px;
+    color: #a00000;
+    text-align: center;
+    font-weight: bold; }
+  .main-index .contenedorQuienSoy .contenidoQuienSoy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px; }
+    .main-index .contenedorQuienSoy .contenidoQuienSoy img {
+      width: 300px;
+      border-radius: 5%; }
+    .main-index .contenedorQuienSoy .contenidoQuienSoy .infoMia {
+      display: flex;
+      width: 800px;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap; }
+      .main-index .contenedorQuienSoy .contenidoQuienSoy .infoMia h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px; }
+      .main-index .contenedorQuienSoy .contenidoQuienSoy .infoMia p {
+        color: #343A40;
+        margin: 15px 0px;
+        font-size: 23px; }
+
+.main-index .contenedorPortfolio h2 {
+  margin: 20px 0px;
+  font-size: 40px;
+  color: #a00000;
+  text-align: center;
+  font-weight: bold; }
+
+.main-index .contenedorPortfolio .contenidoPortfolio .proyectoDraigGoch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px; }
+  .main-index .contenedorPortfolio .contenidoPortfolio .proyectoDraigGoch .carousel {
+    width: 560px !important;
+    height: 340px; }
+  .main-index .contenedorPortfolio .contenidoPortfolio .proyectoDraigGoch .infoDraigGoch {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; }
+    .main-index .contenedorPortfolio .contenidoPortfolio .proyectoDraigGoch .infoDraigGoch h3 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px;
+      color: red; }
+    .main-index .contenedorPortfolio .contenidoPortfolio .proyectoDraigGoch .infoDraigGoch p {
+      color: #343A40;
+      margin: 15px 0px;
+      font-size: 23px; }
+
+.main-index .contenedorPortfolio .contenidoPortfolio .proyectoWalaPiscinas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0px; }
+  .main-index .contenedorPortfolio .contenidoPortfolio .proyectoWalaPiscinas .carousel {
+    width: 560px !important;
+    height: 340px; }
+  .main-index .contenedorPortfolio .contenidoPortfolio .proyectoWalaPiscinas .infoWala {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; }
+    .main-index .contenedorPortfolio .contenidoPortfolio .proyectoWalaPiscinas .infoWala h3 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px;
+      color: #084298; }
+    .main-index .contenedorPortfolio .contenidoPortfolio .proyectoWalaPiscinas .infoWala p {
+      color: #343A40;
+      margin: 15px 0px;
+      font-size: 23px; }
+
+.main-index .contenedorContacto h2 {
+  margin: 20px 0px;
+  font-size: 40px;
+  color: #a00000;
+  text-align: center;
+  font-weight: bold; }
+
+.main-index .contenedorContacto .contenidoRedes ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .main-index .contenedorContacto .contenidoRedes ul li {
+    list-style: none;
+    margin: 0px 10px; }
+    .main-index .contenedorContacto .contenidoRedes ul li .fa-brands {
+      font-size: 50px;
+      color: #a00000; }
+
+.main-index .contenedorContacto p {
+  color: #343A40;
+  margin: 15px 0px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold; }
+
+footer {
+  background-color: #ABDF75;
+  height: 100%;
+  max-width: 100%;
+  padding: 18px; }
+  footer p {
+    margin: 15px 0px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black; }

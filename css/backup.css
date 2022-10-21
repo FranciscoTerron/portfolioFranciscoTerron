@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Paleta de colores
+header -> #D6F9DD
+body ->#99F7AB
+footer ->#ABDF75
+*/
+
+
+/* Fuentes
+    body -> 'Poppins', sans-serif
+*/
+body {
+    background-color: #99F7AB;
+}
+
+header {
+    background-color: #D6F9DD;
+}
+
+footer {
+    background-color: #ABDF75;
+}
+
+main {
+    min-height: 80vh;
+}

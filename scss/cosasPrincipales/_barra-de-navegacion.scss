@@ -1,0 +1,40 @@
+header {
+
+    background-color: #D6F9DD;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    max-width: 100%;
+
+    padding: 15px;
+
+    .navbar-collapse {
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        .navbar-nav {
+            display: flex;
+
+            .nav-item {
+
+
+                a {
+                    color: black;
+                    font-size: 30px;
+                    margin: 10px;
+                    text-decoration: none;
+
+                    &:hover {
+                        font-weight: bold;
+                        color: rgb(75, 74, 74) !important;
+                    }
+
+                }
+            }
+
+        }
+    }
+}

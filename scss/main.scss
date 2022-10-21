@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* Paleta de colores
+header -> #D6F9DD
+body ->#99F7AB
+footer ->#ABDF75
+*/
+
+
+/* Fuentes
+    body -> 'Poppins', sans-serif
+*/
+
+
+main {
+    min-height: 80vh;
+}
+
+
+body {
+    background-color: #99F7AB;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@import './cosasPrincipales/barra-de-navegacion';
+@import './index';
+@import './cosasPrincipales/pie-de-pagina';
